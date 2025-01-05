@@ -1,6 +1,6 @@
 CREATE DATABASE SCOPED CREDENTIAL SasToken
 WITH IDENTITY='SHARED ACCESS SIGNATURE',
-SECRET='sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupyx&se=2024-08-25T10:15:43Z&st=2024-08-25T02:15:43Z&spr=https&sig=7AK5OmKm0r2eSkV0Rus0%2Bi2loSR1ULB1wumuAWqH%2F4g%3D'
+SECRET='xyz'
 
 CREATE EXTERNAL DATA SOURCE log_data5
 WITH (LOCATION='https://adlsprojct22.blob.core.windows.net/processed',
